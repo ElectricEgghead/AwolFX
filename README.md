@@ -14,6 +14,6 @@ Medium: http://tiny.cc/ElectricEggheadMedium
 
 ----------
 
-Images of game located in the ISSUES section.
+Images will be located in the ISSUES section.
 
 Create Your Utopia!
