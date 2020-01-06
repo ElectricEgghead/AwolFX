@@ -1,0 +1,1176 @@
+Game doesn't launch in unreal engine. Game menu plays when press PLAY, but doesn't play when press LAUNCH.
+
+//TODO - Troubleshoot
+// 1/6/2020
+
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.981993
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-10757647
+LogInit: Engine Version: 4.24.1-10757647+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Dec 17 2019 02:08:03
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/Public/UE4/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[r.VSync:0]]
+LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+LogConfig: Setting CVar [[r.ShadowQuality:5]]
+LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+LogConfig: Setting CVar [[r.AOQuality:2]]
+LogConfig: Setting CVar [[r.VolumetricFog:1]]
+LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+LogConfig: Setting CVar [[r.BloomQuality:5]]
+LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+LogConfig: Setting CVar [[r.RefractionQuality:2]]
+LogConfig: Setting CVar [[r.SSR.Quality:3]]
+LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+LogConfig: Setting CVar [[r.DetailMode:2]]
+LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+LogConfig: Setting CVar [[r.SSS.Scale:1]]
+LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+LogConfig: Setting CVar [[r.SSS.Quality:1]]
+LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+LogInit: Selected Device Profile: [Windows]
+LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+LogHAL: Display: Platform has ~ 16 GB [17129996288 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogInit: Going up to parent DeviceProfile []
+LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+LogConfig: Setting CVar [[r.ShadowQuality:5]]
+LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+LogConfig: Setting CVar [[r.AOQuality:2]]
+LogConfig: Setting CVar [[r.VolumetricFog:1]]
+LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+LogConfig: Setting CVar [[r.BloomQuality:5]]
+LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+LogConfig: Setting CVar [[r.RefractionQuality:2]]
+LogConfig: Setting CVar [[r.SSR.Quality:3]]
+LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+LogConfig: Setting CVar [[r.DetailMode:2]]
+LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+LogConfig: Setting CVar [[r.SSS.Scale:1]]
+LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+LogConfig: Setting CVar [[r.SSS.Quality:1]]
+LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Scalability.ini]
+LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Config/Windows/Engine.ini]
+LogInit: Computer: DESKTOP-9EVERNU
+LogInit: User: Public
+LogInit: CPU Page size=4096, Cores=4
+LogInit: High frequency timer resolution =10.000000 MHz
+LogMemory: Memory total: Physical=16.0GB (16GB approx)
+LogMemory: Platform Memory Stats for Windows
+LogMemory: Process Physical Memory: 105.02 MB used, 105.02 MB peak
+LogMemory: Process Virtual Memory: 100.31 MB used, 100.31 MB peak
+LogMemory: Physical Memory: 5094.04 MB used,  11242.40 MB free, 16336.44 MB total
+LogMemory: Virtual Memory: 5151.93 MB used,  134212576.00 MB free, 134217728.00 MB total
+LogWindows: WindowsPlatformFeatures enabled
+LogInit: Using OS detected language (en-US).
+LogInit: Using OS detected locale (en-US).
+LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+LogInit: Setting process to per monitor DPI aware
+LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+LogHMD: Failed to initialize OpenVR with code 110
+LogD3D11RHI: D3D11 min allowed feature level: 11_0
+LogD3D11RHI: D3D11 max allowed feature level: 11_0
+LogD3D11RHI: D3D11 adapters:
+LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+LogD3D11RHI:       6052/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+LogD3D11RHI: Chosen D3D11 Adapter: 0
+LogD3D11RHI: Creating new Direct3DDevice
+LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+LogWindows: EnumDisplayDevices:
+LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+LogWindows: DebugString: FoundDriverCount:4 
+LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+LogD3D11RHI:      Driver Date: 7-24-2019
+LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+LogD3D11RHI: RHI has support for 64 bit atomics
+LogD3D11RHI: Async texture creation enabled
+LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Building Assets For Windows
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Intermediate/Shaders/WorkingDirectory/5160/).
+LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Public.DESKTOP-9EVERNU/AppData/Local/Temp/UnrealShaderWorkingDir/06510CFD40A98317E5B9A4B0AC561ECF/'.
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+LogShaderCompilers: Display: Using Local Shader Compiler.
+LogDerivedDataCache: Display: Max Cache Size: 512 MB
+LogDerivedDataCache: Loaded boot cache 0.25s 78MB C:/Users/Public.DESKTOP-9EVERNU/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Public.DESKTOP-9EVERNU/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+LogDerivedDataCache: Using Local data cache path C:/Users/Public.DESKTOP-9EVERNU/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+LogMaterial: Verifying Global Shaders for PCD3D_SM5
+LogSlate: Using FreeType 2.10.0
+LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+LogAssetRegistry: FAssetRegistry took 0.0049 seconds to start up
+LogInit: Selected Device Profile: [Windows]
+LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+LogMeshReduction: No distributed automatic mesh merging module available
+LogMeshMerging: No distributed automatic mesh merging module available
+LogNetVersion: AwolFXMainMenu3 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2998525440)
+LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.049690 seconds
+LogUObjectArray: 46750 objects as part of root set at end of initial load.
+LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+LogTcpMessaging: Initializing TcpMessaging bridge
+LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogOcInput: OculusInput pre-init called
+LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+LogWindows: File 'OVRPlugin.dll' does not exist
+LogEngine: Initializing Engine...
+LogHMD: Failed to initialize OpenVR with code 110
+LogStats: UGameplayTagsManager::InitializeManager -  0.003 s
+LogInit: Initializing FReadOnlyCVARCache
+LogAIModule: Creating AISystem for world Untitled
+LogAudioMixer: Display: Audio Mixer Platform Settings:
+LogAudioMixer: Display:     Sample Rate:                          48000
+LogAudioMixer: Display:     Callback Buffer Frame Size Requested: 1024
+LogAudioMixer: Display:     Callback Buffer Frame Size To Use:    1024
+LogAudioMixer: Display:     Number of buffers to queue:           2
+LogAudioMixer: Display:     Max Channels (voices):                32
+LogAudioMixer: Display:     Number of Async Source Workers:       0
+LogAudio: Display: AudioDevice MaxSources: 32
+LogAudio: Display: Using built-in audio occlusion.
+LogAudioMixer: Display: Initializing audio mixer.
+LogAudioMixer: Display: Audio Device Output Speaker Info:
+LogAudioMixer: Display: Name: Speakers (Sound Blaster Recon3Di)
+LogAudioMixer: Display: Is Default: Yes
+LogAudioMixer: Display: Sample Rate: 48000
+LogAudioMixer: Display: Channel Count Used: 2
+LogAudioMixer: Display: Device Channel Count: 2
+LogAudioMixer: Display: Channel Order:
+LogAudioMixer: Display: 0: FrontLeft
+LogAudioMixer: Display: 1: FrontRight
+LogAudioMixer: Display: Using Audio Device Speakers (Sound Blaster Recon3Di)
+LogInit: FAudioDevice initialized.
+LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/Public.DESKTOP-9EVERNU/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+LogInit: Texture streaming: Enabled
+LogEngineSessionManager: EngineSessionManager initialized
+LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+LogInit: Transaction tracking system initialized
+BlueprintLog: New page: Editor Load
+LocalizationService: Localization service is disabled
+LogFileCache: Scanning file cache for directory 'C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Content/' took 0.01s
+LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+LogCook: Display: Mobile HDR setting 1
+SourceControl: Source control is disabled
+LightingResults: New page: Lighting Build
+LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+MapCheck: New page: Map Check
+LightingResults: New page: Lighting Build
+LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+LogAIModule: Creating AISystem for world MainMenu
+LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+Cmd: MAP CHECKDEP NOCLEARLOG
+MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.357ms to complete.
+LogFileHelpers: Loading map 'MainMenu' took 0.171
+LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+LogCollectionManager: Loaded 0 collections in 0.001877 seconds
+LogFileCache: Scanning file cache for directory 'C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Saved/Collections/' took 0.00s
+LogFileCache: Scanning file cache for directory 'C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Content/Developers/Public/Collections/' took 0.00s
+LogFileCache: Scanning file cache for directory 'C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/Content/Collections/' took 0.00s
+LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3015 classes and 717 folders.
+LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+LogSlate: Took 0.005688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+LogSlate: Took 0.005544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+LogSlate: Took 0.004983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+LogSlate: Took 0.007761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+LogLoad: (Engine Initialization) Total time: 23.23 seconds
+LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+LogContentStreaming: Texture pool size now 1000 MB
+LogAssetRegistry: Asset discovery search completed in 10.8568 seconds
+LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+LogHttp: Warning: 000002A99021E700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5F5B1326-448E-F310-2078-3F9312705F02%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=dc3ca2954fe65a54dd33089f18631954%7C16d639e3023b479db9b2229f4921dcf1%7C57
+950acb-9368-4b52-89fb-ade84aaadbe3&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+LogHttp: Warning: 000002A99021E700: request failed, libcurl error: 7 (Couldn't connect to server)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 0 (  Trying 52.6.184.73...)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 1 (TCP_NODELAY set)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 2 (connect to 52.6.184.73 port 443 failed: Timed out)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 3 (  Trying 107.23.22.136...)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 4 (TCP_NODELAY set)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 5 (After 19461ms connect time, move on!)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 6 (connect to 107.23.22.136 port 443 failed: Timed out)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 7 (  Trying 54.227.199.206...)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 8 (TCP_NODELAY set)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 9 (connect to 54.227.199.206 port 443 failed: Host unreachable)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 10 (  Trying 34.197.129.254...)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 11 (TCP_NODELAY set)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 12 (connect to 34.197.129.254 port 443 failed: Host unreachable)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 13 (  Trying 35.169.76.60...)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 14 (TCP_NODELAY set)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 15 (connect to 35.169.76.60 port 443 failed: Host unreachable)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 16 (  Trying 100.24.101.210...)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 17 (TCP_NODELAY set)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 18 (connect to 100.24.101.210 port 443 failed: Host unreachable)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 19 (  Trying 54.224.96.69...)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 20 (TCP_NODELAY set)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 21 (connect to 54.224.96.69 port 443 failed: Host unreachable)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 22 (  Trying 18.214.66.93...)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 23 (TCP_NODELAY set)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 24 (connect to 18.214.66.93 port 443 failed: Host unreachable)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 25 (Failed to connect to datarouter.ol.epicgames.com port 443: Host unreachable)
+LogHttp: Warning: 000002A99021E700: libcurl info message cache 26 (Closing connection 0)
+LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5F5B1326-448E-F310-2078-3F9312705F02%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=dc3ca2954fe65a54dd33089f18631954%7C16d639e3023b479db9b2229f4921dcf1%7C57950acb-9368-4b52-89fb-ade84aaadbe3&AppEnv
+ironment=datacollector-binary&UploadType=eteventstream
+LogEditorViewport: Clicking Background
+LogSlate: Took 0.004026 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPersonBP/Maps/MainMenu.MainMenu
+LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+LightingResults: New page: Lighting Build
+LoadErrors: New page: Loading map: MainMenu.umap
+LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+MapCheck: New page: Map Check
+LightingResults: New page: Lighting Build
+LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+LogAIModule: Creating AISystem for world MainMenu
+LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+Cmd: MAP CHECKDEP NOCLEARLOG
+MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
+LogFileHelpers: Loading map 'MainMenu' took 0.134
+LogTemp: Repeating last play command: Selected Viewport
+LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:Persisten
+tLevel.MainMenu'
+LogPlayLevel: PlayLevel: No blueprints needed recompiling
+PIE: New page: PIE session: MainMenu (Jan 6, 2020, 12:53:07 PM)
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_MainMenu
+LogPlayLevel: PIE: StaticDuplicateObject took: (0.000943s)
+LogAIModule: Creating AISystem for world MainMenu
+LogPlayLevel: PIE: World Init took: (0.000855s)
+LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/MainMenu.MainMenu to /Game/FirstPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.001980s)
+LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+LogAudioMixer: Display: Audio Mixer Platform Settings:
+LogAudioMixer: Display:     Sample Rate:                          48000
+LogAudioMixer: Display:     Callback Buffer Frame Size Requested: 1024
+LogAudioMixer: Display:     Callback Buffer Frame Size To Use:    1024
+LogAudioMixer: Display:     Number of buffers to queue:           2
+LogAudioMixer: Display:     Max Channels (voices):                32
+LogAudioMixer: Display:     Number of Async Source Workers:       0
+LogAudio: Display: AudioDevice MaxSources: 32
+LogAudio: Display: Using built-in audio occlusion.
+LogAudioMixer: Display: Initializing audio mixer.
+LogAudioMixer: Display: Audio Device Output Speaker Info:
+LogAudioMixer: Display: Name: Speakers (Sound Blaster Recon3Di)
+LogAudioMixer: Display: Is Default: Yes
+LogAudioMixer: Display: Sample Rate: 48000
+LogAudioMixer: Display: Channel Count Used: 2
+LogAudioMixer: Display: Device Channel Count: 2
+LogAudioMixer: Display: Channel Order:
+LogAudioMixer: Display: 0: FrontLeft
+LogAudioMixer: Display: 1: FrontRight
+LogAudioMixer: Display: Using Audio Device Speakers (Sound Blaster Recon3Di)
+LogInit: FAudioDevice initialized.
+LogLoad: Game class is 'FirstPersonGameMode_C'
+LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.01.06-17.53.08
+LogWorld: Bringing up level for play took: 0.001175
+LogOnline: OSS: Creating online subsystem instance for: :Context_1
+LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_MainMenu 0.973
+LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:Persistent
+Level.MainMenu'
+LogNet: Browse: /Game/FirstPersonBP/Maps/AwolFXMap
+LogLoad: LoadMap: /Game/FirstPersonBP/Maps/AwolFXMap
+LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_MainMenu
+LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+LogAIModule: Creating AISystem for world AwolFXMap
+LogLoad: Game class is 'FirstPersonGameMode_C'
+LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AwolFXMap.AwolFXMap up for play (max tick rate 0) at 2020.01.06-17.53.11
+LogWorld: Bringing up level for play took: 0.007362
+Cmd: ShowFlag.Tonemapper 0
+ShowFlag.Tonemapper = "0"
+LogLoad: Took 0.645671 seconds to LoadMap(/Game/FirstPersonBP/Maps/AwolFXMap)
+LogNet: Browse: /Game/FirstPersonBP/Maps/AwolFXMap_Level2
+LogLoad: LoadMap: /Game/FirstPersonBP/Maps/AwolFXMap_Level2
+LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_AwolFXMap
+LogWorld: UWorld::CleanupWorld for AwolFXMap, bSessionEnded=true, bCleanupResources=true
+LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+LogAIModule: Creating AISystem for world AwolFXMap_Level2
+LogLoad: Game class is 'FirstPersonGameMode_C'
+LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_AwolFXMap_Level2.AwolFXMap_Level2 up for play (max tick rate 0) at 2020.01.06-17.53.16
+LogWorld: Bringing up level for play took: 0.008495
+LogLoad: Took 0.142865 seconds to LoadMap(/Game/FirstPersonBP/Maps/AwolFXMap_Level2)
+LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentL
+evel.MainMenu'
+LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_AwolFXMap_Level2
+LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogWorld: UWorld::CleanupWorld for AwolFXMap_Level2, bSessionEnded=true, bCleanupResources=true
+LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+LogPlayLevel: Display: Shutting down PIE online subsystems
+LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/MainMenu.MainMenu:PersistentLe
+vel.MainMenu'
+LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+LogPlayLevel: Display: Destroying online subsystem :Context_1
+LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+LogPlayLevel: Launcher Device ID: WindowsNoEditor@DESKTOP-9EVERNU
+LogPlayLevel: PlayLevel: No blueprints needed recompiling
+LogCook: Display: Creating asset registry
+LogCook: Display: Discovering localized assets
+LogCook: Display: Cooked content cleared for platform AllDesktop
+LogCook: Display: Unable to read previous cook inisettings for platform AllDesktop invalidating cook
+LogCook: Display: Cooked content cleared for platform Android
+LogCook: Display: Unable to read previous cook inisettings for platform Android invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ASTC
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTC invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ATC
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ATC invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_DXT
+LogCook: Display: Unable to read previous cook inisettings for platform Android_DXT invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ETC1
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1 invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ETC1a
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1a invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ETC2
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2 invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_PVRTC
+LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTC invalidating cook
+LogCook: Display: Cooked content cleared for platform AndroidClient
+LogCook: Display: Unable to read previous cook inisettings for platform AndroidClient invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ASTCClient
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTCClient invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ATCClient
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ATCClient invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_DXTClient
+LogCook: Display: Unable to read previous cook inisettings for platform Android_DXTClient invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ETC1Client
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1Client invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ETC1aClient
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1aClient invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_ETC2Client
+LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2Client invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_PVRTCClient
+LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTCClient invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_Multi
+LogCook: Display: Unable to read previous cook inisettings for platform Android_Multi invalidating cook
+LogCook: Display: Cooked content cleared for platform Android_MultiClient
+LogCook: Display: Unable to read previous cook inisettings for platform Android_MultiClient invalidating cook
+LogCook: Display: Cooked content cleared for platform IOSClient
+LogCook: Display: Unable to read previous cook inisettings for platform IOSClient invalidating cook
+LogCook: Display: Cooked content cleared for platform IOS
+LogCook: Display: Unable to read previous cook inisettings for platform IOS invalidating cook
+LogCook: Display: Cooked content cleared for platform LinuxNoEditor
+LogCook: Display: Unable to read previous cook inisettings for platform LinuxNoEditor invalidating cook
+LogCook: Display: Cooked content cleared for platform LinuxClient
+LogCook: Display: Unable to read previous cook inisettings for platform LinuxClient invalidating cook
+LogCook: Display: Cooked content cleared for platform LinuxServer
+LogCook: Display: Unable to read previous cook inisettings for platform LinuxServer invalidating cook
+LogCook: Display: Cooked content cleared for platform LinuxAArch64NoEditor
+LogCook: Display: Unable to read previous cook inisettings for platform LinuxAArch64NoEditor invalidating cook
+LogCook: Display: Cooked content cleared for platform LinuxAArch64Client
+LogCook: Display: Unable to read previous cook inisettings for platform LinuxAArch64Client invalidating cook
+LogCook: Display: Cooked content cleared for platform LinuxAArch64Server
+LogCook: Display: Unable to read previous cook inisettings for platform LinuxAArch64Server invalidating cook
+LogCook: Display: Cooked content cleared for platform Lumin
+LogCook: Display: Unable to read previous cook inisettings for platform Lumin invalidating cook
+LogCook: Display: Cooked content cleared for platform LuminClient
+LogCook: Display: Unable to read previous cook inisettings for platform LuminClient invalidating cook
+LogCook: Display: Cooked content cleared for platform TVOSClient
+LogCook: Display: Unable to read previous cook inisettings for platform TVOSClient invalidating cook
+LogCook: Display: Cooked content cleared for platform TVOS
+LogCook: Display: Unable to read previous cook inisettings for platform TVOS invalidating cook
+LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+LogCook: Display: Cooked content cleared for platform Windows
+LogCook: Display: Unable to read previous cook inisettings for platform Windows invalidating cook
+LogCook: Display: Cooked content cleared for platform WindowsClient
+LogCook: Display: Unable to read previous cook inisettings for platform WindowsClient invalidating cook
+LogCook: Display: Cooked content cleared for platform WindowsServer
+LogCook: Display: Unable to read previous cook inisettings for platform WindowsServer invalidating cook
+LogCook: Display: Sandbox cleanup took 1.676 seconds for platforms AllDesktop Android Android_ASTC Android_ATC Android_DXT Android_ETC1 Android_ETC1a Android_ETC2 Android_PVRTC AndroidClient Android_ASTCClient Android_ATCClient Android_DXTClient Android_ETC1Client Android_ETC1aClient Android_ETC2Client Android_PVRTCClient Android_Multi Android_MultiClient IO
+SClient IOS LinuxNoEditor LinuxClient LinuxServer LinuxAArch64NoEditor LinuxAArch64Client LinuxAArch64Server Lumin LuminClient TVOSClient TVOS WindowsNoEditor Windows WindowsClient WindowsServer  iterative false
+LogCook: Display: Cooked packages 0 Packages Remain 397 Total 397
+LogAIModule: Creating AISystem for world Entry
+LogCook: Display: Cooked packages 0 Packages Remain 398 Total 398
+LogContentBrowser: Native class hierarchy updated for 'BlueprintNativeCodeGen' in 0.0002 seconds. Added 0 classes and 0 folders.
+LogCook: Display: Cooked packages 10 Packages Remain 397 Total 407
+LogCook: Display: Cooked packages 18 Packages Remain 396 Total 414
+LogCook: Display: Cooked packages 35 Packages Remain 395 Total 430
+LogCook: Display: Cooked packages 85 Packages Remain 394 Total 479
+LogCook: Display: Cooked packages 92 Packages Remain 393 Total 485
+LogCook: Display: Cooked packages 108 Packages Remain 392 Total 500
+LogCook: Display: Cooked packages 129 Packages Remain 391 Total 520
+LogCook: Display: Cooked packages 161 Packages Remain 390 Total 551
+LogCook: Display: Cooked packages 209 Packages Remain 389 Total 598
+LogCook: Display: Cooked packages 212 Packages Remain 388 Total 600
+LogCook: Display: Cooked packages 226 Packages Remain 387 Total 613
+LogCook: Display: Cooked packages 227 Packages Remain 386 Total 613
+LogCook: Display: Cooked packages 253 Packages Remain 385 Total 638
+LogCook: Display: Cooked packages 262 Packages Remain 384 Total 646
+LogCook: Display: Cooked packages 312 Packages Remain 383 Total 695
+LogCook: Display: Cooked packages 328 Packages Remain 382 Total 710
+LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+LogCook: Display: Cooked packages 336 Packages Remain 381 Total 717
+LogCook: Display: Cooked packages 361 Packages Remain 380 Total 741
+LogCook: Display: Cooked packages 376 Packages Remain 39 Total 415
+LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+LogCook: Display: Cooked packages 380 Packages Remain 38 Total 418
+LogCook: Display: Cooked packages 383 Packages Remain 36 Total 419
+LogCook: Display: Cooked packages 384 Packages Remain 35 Total 419
+LogCook: Display: Cooked packages 385 Packages Remain 34 Total 419
+LogCook: Display: Cooked packages 386 Packages Remain 33 Total 419
+LogCook: Display: Cooked packages 387 Packages Remain 32 Total 419
+LogCook: Display: Cooked packages 388 Packages Remain 31 Total 419
+LogCook: Display: Cooked packages 389 Packages Remain 30 Total 419
+LogCook: Display: Cooked packages 390 Packages Remain 29 Total 419
+LogCook: Display: Cooked packages 391 Packages Remain 28 Total 419
+LogCook: Display: Cooked packages 392 Packages Remain 27 Total 419
+LogCook: Display: Cooked packages 394 Packages Remain 26 Total 420
+LogCook: Display: Cooked packages 395 Packages Remain 25 Total 420
+LogCook: Display: Cooked packages 396 Packages Remain 24 Total 420
+LogCook: Display: Cooked packages 397 Packages Remain 23 Total 420
+LogCook: Display: Cooked packages 398 Packages Remain 22 Total 420
+LogCook: Display: Cooked packages 398 Packages Remain 0 Total 398
+LogCook: Display: Finishing up...
+LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.001 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogAssetRegistryGenerator: Chunk: 0, Started with 395 packages, Final after dependency resolve: 395
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 395, size is 169.56kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+LogAssetRegistryGenerator: Display: Saving asset registry.
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+LogAssetRegistryGenerator: Display: Done saving asset registry.
+LogCook: Display: Cook by the book total time in tick 4.419798s total time 10.443999
+LogCook: Display: Peak Used virtual 1615MB Peak Used physical 1030MB
+LogCook: Display: Hierarchy Timer Information:
+LogCook: Display:   Root: 0.000s (0)
+LogCook: Display:     StartCookByTheBookTime: 4.306s (1)
+LogCook: Display:       GenerateAssetRegistryTime: 0.000s (1)
+LogCook: Display:       CleanSandboxTime: 1.676s (1)
+LogCook: Display:         ProcessingAccessedStrings: 0.134s (35)
+LogCook: Display:       CollectFilesToCook: 0.109s (1)
+LogCook: Display:         CookModificationDelegate: 0.000s (1)
+LogCook: Display:         SearchForPackageOnDisk: 0.000s (1)
+LogCook: Display:         GeneratePackageNames: 0.000s (1)
+LogCook: Display:       GenerateLongPackageName: 0.000s (1)
+LogCook: Display:     TickCookOnTheSide: 4.417s (55)
+LogCook: Display:       LoadPackage: 0.105s (18)
+LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.007s (55)
+LogCook: Display:       PostLoadPackageFixup: 0.000s (55)
+LogCook: Display:       SavingPackages: 1.544s (55)
+LogCook: Display:         EnqueueUnsavedPackages: 0.002s (40)
+LogCook: Display:         PrecachePlatformDataForNextPackage: 0.000s (383)
+LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.124s (381)
+LogCook: Display:         SaveCookedPackage: 1.406s (398)
+LogCook: Display:           LoadPackage: 0.001s (398)
+LogCook: Display:           GEditorSavePackage: 1.387s (398)
+LogCook: Display:             ConvertingBlueprints: 0.003s (398)
+LogCook: Display:             VerifyCanCookPackage: 0.002s (395)
+LogCook: Display:     GeneratingBlueprintAssets: 0.000s (1)
+LogCook: Display:     SavingCurrentIniSettings: 0.046s (1)
+LogCook: Display:       ProcessingAccessedStrings: 0.004s (1)
+LogCook: Display:     SavingAssetRegistry: 1.423s (1)
+LogCook: Display:       BuildChunkManifest: 0.172s (35)
+LogCook: Display:       SaveManifests: 0.068s (35)
+LogCook: Display:       SaveRealAssetRegistry: 0.858s (35)
+LogCook: Display:       WriteCookerOpenOrder: 0.325s (35)
+LogCook: Display: Done!
+LogPlayLevel: Completed Launch On Stage: Cooking in the editor, Time: 5.230268
+LogPlayLevel: Running AutomationTool...
+LogPlayLevel: Parsing command line: -ScriptsForProject="C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/AwolFXMainMenu3.uproject" BuildCookRun -project="C:/Users/Public.DESKTOP-9EVERNU/Documents/Game Dev - Ash/Unreal Engine Projects/AwolFXMainMenu3/AwolFXMainMenu3.uproject" -noP4 -clientconfig=Development -serv
+erconfig=Development -nocompile -nocompileeditor -installed -ue4exe=C:\Users\Public\UE4\UE_4.24\Engine\Binaries\Win64\UE4Editor-Cmd.exe -utf8output -platform=Win64 -targetplatform=Win64 -ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled -map=/Game/FirstPersonBP/Maps/MainMenu -skipcook -CookInEditor -iterativecooking -c
+ompressed -iterativedeploy -stage -deploy -cmdline="/Game/FirstPersonBP/Maps/MainMenu -Messaging" -device=WindowsNoEditor@DESKTOP-9EVERNU -addcmdline="-SessionId=DFBC9C564F6AC8164C08A2A7602A9AF3 -SessionOwner='Public' -SessionName='Launch On Device'  " -run
+LogPlayLevel: Setting up ProjectParams for C:\Users\Public.DESKTOP-9EVERNU\Documents\Game Dev - Ash\Unreal Engine Projects\AwolFXMainMenu3\AwolFXMainMenu3.uproject
+LogPlayLevel: ********** STAGE COMMAND STARTED **********
+LogPlayLevel: Creating Staging Manifest...
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\BaseEditor.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\BaseEditorKeyBindings.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\BaseEditorPerProjectUserSettings.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\BaseEditorSettings.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\BaseLightmass.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\BasePakFileRules.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\Category.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\Editor.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\EditorTutorials.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\Engine.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\Keywords.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\PortableObjectExport.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\PortableObjectImport.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\PropertyNames.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\RepairData.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\ToolTips.ini
+LogPlayLevel: Excluding config file C:\Users\Public\UE4\UE_4.24\Engine\Config\Localization\WordCount.ini
+LogPlayLevel: Excluding config file C:\Users\Public.DESKTOP-9EVERNU\Documents\Game Dev - Ash\Unreal Engine Projects\AwolFXMainMenu3\Config\DefaultEditor.ini
+LogPlayLevel: Completed Launch On Stage: Build Task, Time: 2.591951
+LogPlayLevel: Excluding config file C:\Users\Public.DESKTOP-9EVERNU\Documents\Game Dev - Ash\Unreal Engine Projects\AwolFXMainMenu3\Config\DefaultEditorPerProjectUserSettings.ini
+LogPlayLevel: Cleaning Stage Directory: C:\Users\Public.DESKTOP-9EVERNU\Documents\Game Dev - Ash\Unreal Engine Projects\AwolFXMainMenu3\Saved\StagedBuilds\WindowsNoEditor
+LogPlayLevel: Copying NonUFSFiles to staging directory: C:\Users\Public.DESKTOP-9EVERNU\Documents\Game Dev - Ash\Unreal Engine Projects\AwolFXMainMenu3\Saved\StagedBuilds\WindowsNoEditor
+LogPlayLevel: Copying UFSFiles to staging directory: C:\Users\Public.DESKTOP-9EVERNU\Documents\Game Dev - Ash\Unreal Engine Projects\AwolFXMainMenu3\Saved\StagedBuilds\WindowsNoEditor
+LogPlayLevel: Copying DebugFiles to staging directory: C:\Users\Public.DESKTOP-9EVERNU\Documents\Game Dev - Ash\Unreal Engine Projects\AwolFXMainMenu3\Saved\StagedBuilds\WindowsNoEditor
+LogPlayLevel: ********** STAGE COMMAND COMPLETED **********
+LogPlayLevel: ********** PACKAGE COMMAND STARTED **********
+LogPlayLevel: ********** PACKAGE COMMAND COMPLETED **********
+LogPlayLevel: ********** DEPLOY COMMAND STARTED **********
+LogPlayLevel: Warning: WARNING: Win64 does not implement Deploy...
+LogPlayLevel: ********** DEPLOY COMMAND COMPLETED **********
+LogPlayLevel: ********** RUN COMMAND STARTED **********
+LogPlayLevel: Starting Client....
+LogPlayLevel: Completed Launch On Stage: Deploy Task, Time: 7.265567
+LogPlayLevel: Running: C:\Users\Public.DESKTOP-9EVERNU\Documents\Game Dev - Ash\Unreal Engine Projects\AwolFXMainMenu3\Saved\StagedBuilds\WindowsNoEditor\Engine\Binaries\Win64\UE4Game.exe ../../../AwolFXMainMenu3/AwolFXMainMenu3.uproject /Game/FirstPersonBP/Maps/MainMenu -stdout -abslog="C:\Users\Public.DESKTOP-9EVERNU\AppData\Roaming\Unreal Engine\Automatio
+nTool\Logs\C+Users+Public+UE4+UE_4.24\Client.log" -Messaging -Windowed -CrashForUAT -SessionId=DFBC9C564F6AC8164C08A2A7602A9AF3 -SessionOwner="Public" -SessionName="Launch On Device"
+LogPlayLevel: LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogPlayLevel: LogInit: Display: Running engine for game: AwolFXMainMenu3
+LogPlayLevel: LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+LogPlayLevel: [2020.01.06-22.53.43:882][  0]LogHAL: Display: Platform has ~ 16 GB [17129996288 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogPlayLevel: [2020.01.06-22.53.44:507][  0]LogStreaming: Display: Flushing async loaders.
+LogPlayLevel: [2020.01.06-22.53.44:716][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogPlayLevel: [2020.01.06-22.53.44:716][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogPlayLevel: [2020.01.06-22.53.45:187][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+LogPlayLevel: [2020.01.06-22.53.45:187][  0]LogAudioMixer: Display:   Sample Rate:                          48000
+LogPlayLevel: [2020.01.06-22.53.45:187][  0]LogAudioMixer: Display:   Callback Buffer Frame Size Requested: 1024
+LogPlayLevel: [2020.01.06-22.53.45:187][  0]LogAudioMixer: Display:   Callback Buffer Frame Size To Use:    1024
+LogPlayLevel: [2020.01.06-22.53.45:188][  0]LogAudioMixer: Display:   Number of buffers to queue:           2
+LogPlayLevel: [2020.01.06-22.53.45:188][  0]LogAudioMixer: Display:   Max Channels (voices):                32
+LogPlayLevel: [2020.01.06-22.53.45:188][  0]LogAudioMixer: Display:   Number of Async Source Workers:       0
+LogPlayLevel: [2020.01.06-22.53.45:188][  0]LogAudio: Display: AudioDevice MaxSources: 32
+LogPlayLevel: [2020.01.06-22.53.45:188][  0]LogAudio: Display: Using built-in audio occlusion.
+LogPlayLevel: [2020.01.06-22.53.45:188][  0]LogAudioMixer: Display: Initializing audio mixer.
+LogPlayLevel: [2020.01.06-22.53.45:216][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogPlayLevel: [2020.01.06-22.53.45:332][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+LogPlayLevel: [2020.01.06-22.53.45:332][  0]LogAudioMixer: Display: Name: Speakers (Sound Blaster Recon3Di)
+LogPlayLevel: [2020.01.06-22.53.45:332][  0]LogAudioMixer: Display: Is Default: Yes
+LogPlayLevel: [2020.01.06-22.53.45:332][  0]LogAudioMixer: Display: Sample Rate: 48000
+LogPlayLevel: [2020.01.06-22.53.45:332][  0]LogAudioMixer: Display: Channel Count Used: 2
+LogPlayLevel: [2020.01.06-22.53.45:332][  0]LogAudioMixer: Display: Device Channel Count: 2
+LogPlayLevel: [2020.01.06-22.53.45:332][  0]LogAudioMixer: Display: Channel Order:
+LogPlayLevel: [2020.01.06-22.53.45:332][  0]LogAudioMixer: Display: 0: FrontLeft
+LogPlayLevel: [2020.01.06-22.53.45:332][  0]LogAudioMixer: Display: 1: FrontRight
+LogPlayLevel: [2020.01.06-22.53.45:352][  0]LogAudioMixer: Display: Using Audio Device Speakers (Sound Blaster Recon3Di)
+LogPlayLevel: [2020.01.06-22.53.45:364][  0]LogInit: Display: Game Engine Initialized.
+LogPlayLevel: [2020.01.06-22.53.45:365][  0]LogInit: Display: Starting Game.
+LogPlayLevel: [2020.01.06-22.53.45:370][  0]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogPlayLevel: [2020.01.06-22.53.45:405][  0]LogUMG: Display: Widget Class MainMenuHUD_C - Loaded Fast Template.
+LogPlayLevel: Warning: [2020.01.06-22.56.22:857][273]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: Warning: [2020.01.06-22.56.22:857][273]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: [2020.01.06-22.56.22:862][274]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogPlayLevel: [2020.01.06-22.56.22:865][274]LogStreaming: Display: Flushing async loaders.
+LogPlayLevel: [2020.01.06-22.56.22:872][274]LogUMG: Display: Widget Class MainMenuHUD_C - Loaded Fast Template.
+LogPlayLevel: Warning: [2020.01.06-22.56.29:423][375]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: Warning: [2020.01.06-22.56.29:423][375]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: [2020.01.06-22.56.29:427][376]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogPlayLevel: [2020.01.06-22.56.29:429][376]LogStreaming: Display: Flushing async loaders.
+LogPlayLevel: [2020.01.06-22.56.29:436][376]LogUMG: Display: Widget Class MainMenuHUD_C - Loaded Fast Template.
+LogPlayLevel: Warning: [2020.01.06-22.56.29:772][470]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: Warning: [2020.01.06-22.56.29:772][470]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: [2020.01.06-22.56.29:776][471]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogPlayLevel: [2020.01.06-22.56.29:778][471]LogStreaming: Display: Flushing async loaders.
+LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1932).
+LogPlayLevel: [2020.01.06-22.56.29:784][471]LogUMG: Display: Widget Class MainMenuHUD_C - Loaded Fast Template.
+LogPlayLevel: Warning: [2020.01.06-23.03.44:271][703]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: Warning: [2020.01.06-23.03.44:271][703]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: [2020.01.06-23.03.44:275][704]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogPlayLevel: [2020.01.06-23.03.44:277][704]LogStreaming: Display: Flushing async loaders.
+LogPlayLevel: [2020.01.06-23.03.44:284][704]LogUMG: Display: Widget Class MainMenuHUD_C - Loaded Fast Template.
+LogPlayLevel: Warning: [2020.01.06-23.03.44:746][830]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: Warning: [2020.01.06-23.03.44:746][830]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: [2020.01.06-23.03.44:750][831]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogPlayLevel: [2020.01.06-23.03.44:752][831]LogStreaming: Display: Flushing async loaders.
+LogPlayLevel: [2020.01.06-23.03.44:758][831]LogUMG: Display: Widget Class MainMenuHUD_C - Loaded Fast Template.
+LogPlayLevel: Warning: [2020.01.06-23.06.36:680][246]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: Warning: [2020.01.06-23.06.36:680][246]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/FirstPersonBP/Maps/MainMenu
+LogPlayLevel: [2020.01.06-23.06.36:684][247]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+LogPlayLevel: [2020.01.06-23.06.36:686][247]LogStreaming: Display: Flushing async loaders.
+LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
