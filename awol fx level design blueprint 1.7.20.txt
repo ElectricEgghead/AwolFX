@@ -1,0 +1,34 @@
+AWOL FX (LEVEL DESIGNS)
+****
+
+
+--------------
+LEVEL 1
+--------------
+blank level
+
+// TODO
+
+delay, then yes or no
+
+YES
+
+goes to LEVEL 2
+will answer open door question later - to go into a dangerous location
+
+NO
+goes to LEVEL 2
+don't go into location. 
+
+--------------
+LEVEL 2
+--------------
+invisible obstacles hit player
+first word
+
+
+
+--------------
+OPENWORLDFORESTLEVEL
+--------------
+
