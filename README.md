@@ -4,16 +4,20 @@
 ![Awol FX Cover Art](https://github.com/ElectricEgghead/12MonthsGameStudio/blob/master/awol%20fx%20background%20image.JPG)
 
 ------------
-Website/Game Dev Blog: www.electricegghead.com
+WEBSITE/Game Dev BLOG: www.electricegghead.com
 
-YouTube channel: http://tiny.cc/ElectricEggheadYouTube
+TWITTER: http://tiny.cc/ElectricEggheadYouTube
 
-Discord: https://discord.gg/vMvB8j6
+YOUTUBE: http://tiny.cc/ElectricEggheadYouTube
 
-Medium: http://tiny.cc/ElectricEggheadMedium
+DISCORD: https://discord.gg/vMvB8j6
+
+TUMBLR: http://electricegghead.tumblr.com
+
+MEDIUM: http://medium.com/@electricegghead
 
 ----------
 
 Images will be located in the ISSUES section.
 
-Contribute Your Difference!
+Contribute Your Difference,
